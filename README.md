@@ -1,12 +1,37 @@
 # Online_Student_Management_System
-Student Management System is a robust application developed by integrating Python with MongoDB, that allows anybody to store data on an online MongoDB server. Using this you can add, delete, update, and display student information.
+# Student Management System
 
-To use the application with your MongoDB server, replace the uri variable with your own MongoDB connection string.
+## Description
+The Student Management System is a Python application that allows users to manage student records stored in a MongoDB database. Users can add, delete, update, and display student information using a graphical user interface built with Tkinter.
 
-Key features of the Student Management System include:
+## Prerequisites
+Before running this application, ensure that you have the following installed:
+- Python 3.x
+- Tkinter: Tkinter is included with Python
+- Mongodb connection string (You will only get after creating an account)
 
-Adding Students: Users can add new student records by providing details such as registration number, name, email, class, and optional mobile number. The system ensures that all compulsory fields are filled before adding the record.
-Deleting Students: Existing student records can be deleted by entering the registration number of the student to be deleted. The system checks for the existence of the student before proceeding with the deletion.
-Updating Student Information: Users can update student information such as name, email, class, and mobile number. The system verifies the existence of the student before making any updates.
-Displaying Student Details: The system provides a user-friendly interface to display all student records stored in the MongoDB database. The details include registration number, name, email, class, and optional mobile number.
-To enhance the functionality of the Student Management System, additional features such as search, sorting, filtering, and authentication can be implemented. Additionally, improvements to the user interface, error handling, and data validation can further enhance the user experience. Moreover, integration with other services such as email notifications or SMS alerts can provide additional functionalities for administrators managing student records.
+## Installation
+1. Clone the repository to your local machine.
+2. Install the required dependencies using `pip install -r requirements.txt`.
+3. Make sure you have MongoDB installed and running on your system.
+4. As online Mongodb server is used for saving the data, you need to run that particular connection string on your terminal before running this program.
+
+## Usage
+1. Run the `main.py` file to start the application.
+2. Use the buttons on the main screen to perform various actions such as adding, deleting, updating, and displaying student records.
+
+## Features
+- Add new student records
+- Delete existing student records
+- Update student information
+- Display student details in a tabular format
+
+## Contributing
+Contributions are welcome! If you find any bugs or have suggestions for new features, please open an issue or submit a pull request.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Credits
+- Developed by Ajayraj C
+
